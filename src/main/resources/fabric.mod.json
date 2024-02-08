@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "food",
+  "version": "${version}",
+  "name": "FOOD MOD",
+  "description": "A mod that ads food",
+  "authors": [
+    "Mitzingdash"
+  ],
+  "contact": {
+    "repo": "https://github.com/slove/food"
+  },
+  "license": "MIT",
+  "icon": "assets/food/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "food.food.client.FOODClient"
+    ],
+    "main": [
+      "food.food.FOOD"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

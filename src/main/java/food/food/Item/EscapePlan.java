@@ -17,6 +17,5 @@ public class EscapePlan extends Item {
                 .saturationModifier(20)
                 .build()));
 
-
     }
 }

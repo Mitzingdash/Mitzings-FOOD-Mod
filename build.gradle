@@ -26,10 +26,12 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
 
-    modImplementation "curse.maven:betterstats-667464:5076601"
-    modImplementation "curse.maven:tcdcommons-711539:5076629"
+
+    modApi "curse.maven:betterstats-667464:5076601"
+    modApi "curse.maven:tcdcommons-711539:5076629"
+
+    modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

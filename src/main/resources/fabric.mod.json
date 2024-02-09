@@ -7,8 +7,13 @@
   "authors": [
     "Mitzingdash"
   ],
+  "contributors": [
+    "TheCSDev"
+  ],
   "contact": {
-    "repo": "https://github.com/slove/food"
+    "repo": "https://github.com/slove/food",
+    "homepage": "https://github.com/Mitzingdash",
+    "sources": "https://github.com/Mitzingdash/food"
   },
   "license": "MIT",
   "icon": "assets/food/icon.png",

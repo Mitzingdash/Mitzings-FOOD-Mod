@@ -1,4 +1,5 @@
 {
   "food": "FOOD MOD",
-  "item.food.food": "Escape Plan"
+  "item.food.food": "Escape Plan",
+  "item.food.flight_plan": "Flight Plan"
 }

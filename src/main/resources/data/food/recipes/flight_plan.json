@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "RDR",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "food:flight_plan",
+    "count": 1
+  }
+}

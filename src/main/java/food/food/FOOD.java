@@ -1,6 +1,7 @@
 package food.food;
 
-import food.food.Item.ItemManager;
+import food.food.Item.EscapePlan;
+import food.food.Item.FlightPlan;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -20,7 +21,11 @@ public class FOOD implements ModInitializer {
 
     public static final Item ESCAPE_PLAN =
             Registry.register(Registries.ITEM, new Identifier("food", "food"),
-                    new ItemManager());
+                    new EscapePlan());
+
+    public static final Item FLIGHT_PLAN =
+            Registry.register(Registries.ITEM, new Identifier("food", "flight_plan"),
+                    new FlightPlan());
 
     @Override
     public void onInitialize() {
@@ -30,6 +35,7 @@ public class FOOD implements ModInitializer {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(ESCAPE_PLAN);
+            content.add(FLIGHT_PLAN);
         });
 
         LOGGER.info("Main load done");

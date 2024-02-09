@@ -13,7 +13,8 @@
   "contact": {
     "repo": "https://github.com/slove/food",
     "homepage": "https://github.com/Mitzingdash",
-    "sources": "https://github.com/Mitzingdash/food"
+    "sources": "https://github.com/Mitzingdash/food",
+    "issues": "https://github.com/Mitzingdash/food/issues"
   },
   "license": "MIT",
   "icon": "assets/food/icon.png",

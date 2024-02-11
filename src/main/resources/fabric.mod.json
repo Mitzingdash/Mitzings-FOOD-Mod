@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mitz_food",
-  "version": "${version}",
+  "version": "${project.mod_version}",
   "name": "Mitzings FOOD Mod",
   "description": "A mod that adds food",
   "authors": [
@@ -27,11 +27,11 @@
       "food.food.FOOD"
     ]
   },
-  "jars": [ { "file":"${mod_jar_tcdcommons}" } ],
+  "jars": [ { "file":"${project.mod_jar_tcdcommons}" } ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=${project.loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${project.minecraft_version}"
   },
   "recommends": {
     "betterstats": "*"

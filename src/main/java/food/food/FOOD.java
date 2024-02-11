@@ -17,14 +17,14 @@ public class FOOD implements ModInitializer {
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.
     // That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("food");
+    public static final Logger LOGGER = LoggerFactory.getLogger("mitz_food");
 
     public static final Item ESCAPE_PLAN =
-            Registry.register(Registries.ITEM, new Identifier("food", "food"),
+            Registry.register(Registries.ITEM, new Identifier("mitz_food", "food"),
                     new EscapePlan());
 
     public static final Item FLIGHT_PLAN =
-            Registry.register(Registries.ITEM, new Identifier("food", "flight_plan"),
+            Registry.register(Registries.ITEM, new Identifier("mitz_food", "flight_plan"),
                     new FlightPlan());
 
     @Override

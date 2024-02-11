@@ -9,6 +9,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.stat.StatFormatter;
+import net.minecraft.stat.Stats;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +37,7 @@ public class FOOD implements ModInitializer {
     	
     	final var myStatId = new Identifier("mitz_food", "mitz_food_effects");
     	Registry.register(Registries.CUSTOM_STAT, myStatId, myStatId);
+    	Stats.CUSTOM.getOrCreateStat(myStatId, StatFormatter.TIME);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(ESCAPE_PLAN);

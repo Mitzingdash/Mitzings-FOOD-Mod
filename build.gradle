@@ -29,7 +29,7 @@ dependencies {
 
 
     modApi "curse.maven:betterstats-667464:5076601"
-    modApi "curse.maven:tcdcommons-711539:5076629"
+   	modApi(files("src/main/resources/${project.mod_jar_tcdcommons}"))
 
     modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
 
@@ -38,6 +38,7 @@ dependencies {
 }
 
 processResources {
+    inputs.property "mod_jar_tcdcommons", project.mod_jar_tcdcommons
     inputs.property "version", project.version
     inputs.property "minecraft_version", project.minecraft_version
     inputs.property "loader_version", project.loader_version

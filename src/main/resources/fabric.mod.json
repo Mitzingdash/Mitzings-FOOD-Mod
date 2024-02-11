@@ -27,6 +27,7 @@
       "food.food.FOOD"
     ]
   },
+  "jars": [ { "file":"${mod_jar_tcdcommons}" } ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

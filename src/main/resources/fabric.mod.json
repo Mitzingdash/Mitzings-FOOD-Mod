@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mitz-food",
+  "id": "mitz_food",
   "version": "${version}",
   "name": "Mitzings FOOD Mod",
   "description": "A mod that adds food",

@@ -1,4 +1,4 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": { "layer0": "food:item/flight_plan" }
+  "textures": { "layer0": "mitz_food:item/flight_plan" }
 }

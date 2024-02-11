@@ -32,6 +32,9 @@ public class FOOD implements ModInitializer {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
+    	
+    	final var myStatId = new Identifier("mitz_food", "mitz_food_effects");
+    	Registry.register(Registries.CUSTOM_STAT, myStatId, myStatId);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(ESCAPE_PLAN);

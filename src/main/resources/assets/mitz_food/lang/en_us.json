@@ -1,5 +1,6 @@
 {
   "mitz-food": "FOOD MOD",
   "item.mitz_food.food": "Escape Plan",
-  "item.mitz_food.flight_plan": "Flight Plan"
+  "item.mitz_food.flight_plan": "Flight Plan",
+  "stat.mitz_food.mitz_food_effects": "Mitzings Effects"
 }

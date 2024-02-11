@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "food",
+  "id": "mitz-food",
   "version": "${version}",
-  "name": "FOOD MOD",
+  "name": "Mitzings FOOD Mod",
   "description": "A mod that adds food",
   "authors": [
     "Mitzingdash"
@@ -13,11 +13,11 @@
   "contact": {
     "repo": "https://github.com/slove/food",
     "homepage": "https://github.com/Mitzingdash",
-    "sources": "https://github.com/Mitzingdash/food",
-    "issues": "https://github.com/Mitzingdash/food/issues"
+    "sources": "https://github.com/Mitzingdash/Mitzings-FOOD-Mod",
+    "issues": "https://github.com/Mitzingdash/Mitzings-FOOD-Mod/issues"
   },
   "license": "MIT",
-  "icon": "assets/food/icon.png",
+  "icon": "assets/mitz_food/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [

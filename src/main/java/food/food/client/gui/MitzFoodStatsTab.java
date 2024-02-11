@@ -27,7 +27,7 @@ public class MitzFoodStatsTab extends StatsTab
         extra.setTextColor(0xffffff); //hexadecimal for yellow
         panel.addChild(extra);
         
-        final var button = new TButtonWidget(5, 50, 100, 20, Text.literal("Click me!"));
+        final var button = new TButtonWidget(5, 50, 200, 20, Text.literal("Click me!"));
         button.setOnClick(btn -> btn.setText(Text.literal("Nice! You clicked on me!")));
         panel.addChild(button);
     }

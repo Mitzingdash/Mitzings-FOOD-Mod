@@ -1,9 +1,11 @@
 package food.food;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import food.food.Item.EscapePlan;
 import food.food.Item.FlightPlan;
 import net.fabricmc.api.ModInitializer;
-
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,8 +14,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.stat.StatFormatter;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Identifier;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class FOOD implements ModInitializer {
     // This logger is used to write text to the console and the log file.
@@ -43,6 +43,8 @@ public class FOOD implements ModInitializer {
             content.add(ESCAPE_PLAN);
             content.add(FLIGHT_PLAN);
         });
+        
+        
 
         LOGGER.info("Main load done");
     }

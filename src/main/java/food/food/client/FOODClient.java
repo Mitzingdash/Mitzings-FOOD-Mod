@@ -13,7 +13,7 @@ public final class FOODClient implements ClientModInitializer {
         if(FabricLoader.getInstance().isModLoaded("betterstats"))
         {
             //if it is, use its API to register the stats tab
-            BSClientRegistries.STATS_TAB.register(new Identifier("food", "mitz_food_stats"), new MitzFoodStatsTab());
+            BSClientRegistries.STATS_TAB.register(new Identifier("mitz_food", "mitz_food_stats"), new MitzFoodStatsTab());
         }
     }
 

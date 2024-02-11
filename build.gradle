@@ -37,18 +37,9 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
-processResources {
-    inputs.property "mod_jar_tcdcommons", project.mod_jar_tcdcommons
-    inputs.property "version", project.version
-    inputs.property "minecraft_version", project.minecraft_version
-    inputs.property "loader_version", project.loader_version
-    filteringCharset "UTF-8"
-
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version,
-                "minecraft_version": project.minecraft_version,
-                "loader_version": project.loader_version
-    }
+processResources
+{
+    filesMatching(["fabric.mod.json", "pack.mcmeta", "**/mods.toml"]) { expand project.properties }
 }
 
 def targetJavaVersion = 17

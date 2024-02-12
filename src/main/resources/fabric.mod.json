@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mitz_food",
   "version": "${project.mod_version}",
-  "name": "Mitzings FOOD Mod",
+  "name": "Mitzings FOOD",
   "description": "A mod that adds food",
   "authors": [
     "Mitzingdash"

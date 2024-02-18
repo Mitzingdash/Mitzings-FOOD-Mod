@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import food.food.Item.EscapePlan;
+import food.food.Item.FightPlan;
 import food.food.Item.FlightPlan;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -28,6 +29,10 @@ public class FOOD implements ModInitializer {
     public static final Item FLIGHT_PLAN =
             Registry.register(Registries.ITEM, new Identifier("mitz_food", "flight_plan"),
                     new FlightPlan());
+    
+    public static final Item FIGHT_PLAN =
+            Registry.register(Registries.ITEM, new Identifier("mitz_food", "fight_plan"),
+                    new FightPlan());
 
     @Override
     public void onInitialize() {
@@ -42,6 +47,7 @@ public class FOOD implements ModInitializer {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(ESCAPE_PLAN);
             content.add(FLIGHT_PLAN);
+            content.add(FIGHT_PLAN);
         });
         
         

@@ -10,7 +10,7 @@ public class FightPlan extends Item {
 	
 	public FightPlan() {
 		super(new FabricItemSettings().food(new FoodComponent.Builder()
-		.statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 15), 1)
+		.statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 5), 1)
 		.statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 40), 1)
 		.statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 60, 255), 0.25f)
 		.statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2), 1)

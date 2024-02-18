@@ -2,7 +2,7 @@
 
 
 
-The mod (in the current state) adds 2 new food sources called "Escape Plan" and "Flight Plan"
+The mod (in the current state) adds 3 new food sources called "Escape Plan", "Fight Plan" and "Flight Plan"
 The items have their own individual upsides and downsides
 
 Meaning you can escape any scenario. Unless your in a hole. Then god help you
@@ -19,4 +19,10 @@ Flight plan gives you Jump boost 20 for one second and feather falling for 10 se
 craft it using 2 rabbits foot one diamond one phantom membrane and a bowl
 
 ![crafting-grid (1)](https://github.com/Mitzingdash/food/assets/90938266/e9d010b9-4675-491b-b599-b428dfa92b9c)
+
+Fight plan gives you strengh 5 for 10 seconds and resistance 2 for 10 seconds. but gives you blindness for 2 seconds and has a 25% chance to give you hunger 255 for 3 seconds
+craft it using 2 spider eyes a diamonds sword a shield and a bowl
+
+![crafting-grid (2)](https://github.com/Mitzingdash/Mitzings-FOOD-Mod/assets/90938266/b44ca141-717a-4d4b-9197-e36f386d696a)
+
 

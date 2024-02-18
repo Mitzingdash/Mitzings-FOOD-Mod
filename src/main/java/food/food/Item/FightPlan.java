@@ -13,6 +13,7 @@ public class FightPlan extends Item {
 		.statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 15), 1)
 		.statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 40), 1)
 		.statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 60, 255), 0.25f)
+		.statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2), 1)
 		.hunger(20)
 		.saturationModifier(20)
 		.alwaysEdible()
